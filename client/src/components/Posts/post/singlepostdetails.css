@@ -1,0 +1,63 @@
+.box{
+    width: 90%;
+    margin:40px auto;
+    position:relative;
+    border: 1px solid rgb(137, 128, 128);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0e9d5;
+}
+
+.verticon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.verticon .MuiSvgIcon-root{
+    font-size: 35px;
+    margin-left:5px ;
+  }
+
+  .verticon .MuiSvgIcon-root:hover{
+    cursor: pointer;
+  }
+
+  .head{
+    margin: 10px;
+    padding: 5px;
+  }
+
+ h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+  }
+
+ h3{
+    font-size: 20px;
+    
+  }
+
+  h1 ,h3{
+    margin-left: 30px;
+    color: #35684b;
+  }
+
+  .post{
+    margin:auto;
+    padding: 10px;
+  }
+
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .content{
+    margin: 30px 10px;
+    font-size: 25px;
+    color: #35684b;
+  }
+
+ 

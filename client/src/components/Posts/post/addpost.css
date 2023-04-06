@@ -1,0 +1,38 @@
+.addbox{
+    width: 40%;
+    margin: 100px auto;
+    position:relative;
+    border: 1px solid rgb(177, 176, 176);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d8e694;
+    text-align: center;
+}
+
+.form > textarea ,.form > input ,button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(131, 130, 130);
+}
+
+input::placeholder , textarea::placeholder{
+    font-size: 16px;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    background-color: #FFBF86;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #FFB319;
+}
+
